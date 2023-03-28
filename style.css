@@ -343,6 +343,12 @@ figure:hover{opacity:0.9;
 
 @media screen and (max-width:600px)
 {
+	.div1{
+   
+            justify-content: first baseline;
+            align-items: flex-start;
+            padding-top: 200px;
+        }
  
 
     h1{
@@ -418,7 +424,12 @@ figure:hover{opacity:0.9;
 {
     #clickhere{
         display:none;}
-
+	.div1{
+   
+            justify-content: first baseline;
+            align-items: flex-start;
+            padding-top: 200px;
+        }
 
         .discographie {
     
