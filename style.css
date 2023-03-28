@@ -8,6 +8,8 @@ body, html {
     scroll-snap-type: y proximity;
     overflow-y: hidden;
 }
+body{
+	margin:0;}
 
 .container{
     height: 100vh;
