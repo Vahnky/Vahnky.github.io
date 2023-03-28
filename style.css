@@ -423,10 +423,11 @@ figure:hover{opacity:0.9;
     
 
             display: grid;
-            grid-template-rows: 100px 100px 100px 100px 100px;
+            grid-template-rows: 90px 90px 90px 90px 90px;
             grid-template-columns: 1fr 1fr  ;
-            row-gap: 20px;
-            column-gap: 2px;
+            grid-gap: 0px;
+            row-gap: 0px;
+            column-gap: 0px;
             
             margin: 10px; 
             padding: 10px;
@@ -442,6 +443,33 @@ figure:hover{opacity:0.9;
             border-radius: 20px;
             margin : 0;
             cursor: pointer;
+        }
+        .logo{
+            display: grid;
+            grid-template-columns : 	1fr ;
+            grid-template-rows : 		repeat(5, 90px); 
+            align-items: center;
+            place-items: center / center;
+        }
+        
+        
+        
+        .slogo{
+            width: 140px;
+            max-height: 90px;
+        }
+        
+        .slogo img{
+            height:60px;
+        }
+        
+        .logo .insta{
+        
+            height:60px;
+        }
+        
+        .dee img{
+            height:auto;
         }
 }
 /* ////////////////////////////////////////////////////////////////////// */
@@ -491,9 +519,13 @@ figure:hover{opacity:0.9;
     
     #clickhere{
     position: absolute;
-    top : 300px;
-    left: 120px;
+    top : 450px;
+    left: 200px;
     
+}
+#clickhere img{
+    width:180px;
+
 }
     }
 
