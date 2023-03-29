@@ -7,6 +7,10 @@ body, html {
     scroll-snap-points-y: repeat(50vh);
     scroll-snap-type: y proximity;
     overflow-y: hidden;
+	
+	-webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
 }
 body{
 	margin:0;}
